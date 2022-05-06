@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: rgba(205, 232, 233, 0.74);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.404);
+
+}
+
+.amazon-logo{
+    width: 29px;
+}
+
+nav span {
+    color: rgb(0, 0, 0);
+}
+
+
+.navbar button {
+    color: white;
+    border-color: white;
+}
+
+
+.logo {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+}
+/* the big img after the nav */
+#home{
+    background-image: url(images/pexels-cleyder-duque-3637739.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#home span{
+    color: rgb(254, 255, 192);
+}
+
+/* THE white parghraph in the img */ 
+.container h1{
+    color: white;
+    font-size:50px;
+}
+/* the on amazon word */
+.container h5{
+    color: rgb(255, 251, 251);
+    font-weight: bold;
+}
+/* the other secation ,, prodcts part */
+#products h6 span{
+    color: rgba(17, 198, 204, 0.74);
+}
+
+#products h3{
+    color:rgb(135, 220, 226) ;
+}
+
+
+/* the products */
+
+.buy-btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.stars img{
+    width: 20px;
+    color: rgb(247, 233, 49);
+}
+
+.buy-btn{
+    font-size: 0.9rem;
+    font-weight:700 ;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 13px 25px;
+    text-transform: uppercase;
+}
+
+.product{
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.product img{
+    transition: 0.3s all;
+}
+
+.product:hover img{
+    opacity: 0.4;
+}
+
+/* footer */
+
+.footer-part {
+    background-color: rgba(164, 167, 167, 0.74);
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+}
+
+.footer-part img{
+    width: 40px;
+}
+
+
+
+.footer-part h5{
+    font-size: 22px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+footer-text h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text span{
+    color: white;
+}
+
+.copyright{
+    margin-top: 20px;
+}
+ 
